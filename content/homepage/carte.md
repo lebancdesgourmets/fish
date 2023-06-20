@@ -12,3 +12,7 @@ Venez découvrir de nouvelles saveurs.
 ---
 
 ![Let us get started on a clean slate](images/woman-pouring-juice-on-glass-3184192.jpg)
+
+---
+
+![Assiette](images/assiette.png)
