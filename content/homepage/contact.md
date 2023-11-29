@@ -4,8 +4,20 @@ weight: 4
 header_menu: true
 ---
 
-{{<icon class="fa fa-envelope">}}&nbsp;[mail@janedoe.com](mailto:your-email@your-domain.com)
+### Restaurant
+Réservations uniquement par téléphone en appelant le {{<icon class="fa fa-phone">}}&nbsp;[+33 9 78 81 24 88](tel:+33978812488)
 
-{{<icon class="fa fa-phone">}}&nbsp;[+49 1111 555555](tel:+491111555555)
+Merci pour votre compréhension
+
+[![](images/insta.png)](https://www.instagram.com/lebancdesgourmets/)
+
+1 rue de l'église
+
+{{< iframe "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJZRdMBqs8jEcR9M1QAdtukWk&key=AIzaSyAeklpdSHNkEf-kZJEyU-w3bDPRVRgXHsY" >}}
+
+### Poissonnerie
+{{<icon class="fa fa-phone">}}&nbsp;[+33 4 50 79 65 15](tel:+33450796515)
+
+7 place Charles de Gaulle
 
 {{< iframe "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJZRdMBqs8jEcR9M1QAdtukWk&key=AIzaSyAeklpdSHNkEf-kZJEyU-w3bDPRVRgXHsY" >}}
