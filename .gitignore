@@ -1,3 +1,4 @@
 /.idea/
 /.idea/sonarlint/securityhotspotstore/index.pb
 /.idea/.gitignore
+/public/
