@@ -94,3 +94,58 @@
 </style>
 <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeklpdSHNkEf-kZJEyU-w3bDPRVRgXHsY&callback=console.debug&libraries=maps,marker&v=beta">
 </script>
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "image": [
+            "https://lebancdesgourmets.fr/images/logo.png"
+        ],
+        "name": "Le banc des gourmets",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1 rue de l'église",
+            "addressLocality": "Evian-les-bains",
+            "postalCode": "74500",
+            "addressCountry": "FR"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 46.400821831588466,
+            "longitude": 6.588331716814942
+        },
+        "url": "https://lebancdesgourmets.fr/",
+        "telephone": "+33978812488",
+        "servesCuisine": "French",
+        "priceRange": "€€",
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday"
+                ],
+                "opens": "12:00",
+                "closes": "14:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday"
+                ],
+                "opens": "19:00",
+                "closes": "21:00"
+            }
+        ],
+        "acceptsReservations": "True"
+    }
+</script>
+
