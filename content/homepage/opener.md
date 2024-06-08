@@ -20,3 +20,16 @@ Nous avons hâte de vous faire vivre une expérience inoubliable au cœur des sa
 
 ![Assiette](images/Interieur5.jpeg)
 
+![Assiette](images/Interieur1.jpeg)
+
+![Assiette](images/Interieur2.jpeg)
+
+![Assiette](images/Interieur3.jpeg)
+
+![Assiette](images/Interieur4.jpeg)
+
+![Assiette](images/Interieur6.jpeg)
+
+![Assiette](images/Bar1.jpeg)
+
+
