@@ -14,22 +14,11 @@ Nous avons hâte de vous faire vivre une expérience inoubliable au cœur des sa
 
 {{< img50 Interieur1.jpeg Interieur2.jpeg >}}
 
-{{< img50 Interieur3.jpeg Interieur4.jpeg >}}
-
 {{< img50 Bar1.jpeg Interieur6.jpeg >}}
 
 ![Assiette](images/Interieur5.jpeg)
 
-![Assiette](images/Interieur1.jpeg)
-
-![Assiette](images/Interieur2.jpeg)
-
 ![Assiette](images/Interieur3.jpeg)
 
-![Assiette](images/Interieur4.jpeg)
-
-![Assiette](images/Interieur6.jpeg)
-
-![Assiette](images/Bar1.jpeg)
 
 
