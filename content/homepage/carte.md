@@ -12,8 +12,6 @@ Le Banc des Gourmets vous invite à une expérience culinaire unique où la fra�
 
 Nous n'avons pas de carte fixe, nous travaillons les produits selon les arrivages. Ci-dessous, un exemple de notre ardoise qui se renouvelle au fil des saisons.
 
-![Assiette](images/menu.jpg)
-
 ![Assiette](images/ardoise3.png)
 
 ![Assiette](images/huitres.jpg)
