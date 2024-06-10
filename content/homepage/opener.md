@@ -11,3 +11,14 @@ Dans un cadre chaleureux et élégant, notre équipe dévouée vous accueille av
 
 
 Nous avons hâte de vous faire vivre une expérience inoubliable au cœur des saveurs des lacs et des mers.
+
+{{< img50 Interieur1.jpeg Interieur2.jpeg >}}
+
+{{< img50 Bar1.jpeg Interieur6.jpeg >}}
+
+![Assiette](images/Interieur5.jpeg)
+
+![Assiette](images/Interieur3.jpeg)
+
+
+

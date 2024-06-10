@@ -10,7 +10,13 @@ Chers clients,
 
 Le Banc des Gourmets vous invite à une expérience culinaire unique où la fraîcheur inspire notre créativité. Notre engagement envers la qualité, la saisonnalité, et les producteurs locaux se reflète dans chaque plat que nous vous servons.
 
-![Let us get started on a clean slate](images/woman-pouring-juice-on-glass-3184192.jpg)
+Nous n'avons pas de carte fixe, nous travaillons les produits selon les arrivages. Ci-dessous, un exemple de notre ardoise qui se renouvelle au fil des saisons.
 
-![Assiette](images/assiette.png)
+![Assiette](images/menu.jpg)
+
+![Assiette](images/ardoise3.png)
+
+![Assiette](images/huitres.jpg)
+
+![Assiette](images/Dessert1.jpeg)
 
