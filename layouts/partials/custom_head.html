@@ -127,7 +127,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         margin-right: 10px;
     }
 </style>
-<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeklpdSHNkEf-kZJEyU-w3bDPRVRgXHsY&callback=console.debug&libraries=maps,marker&v=beta">
+<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeklpdSHNkEf-kZJEyU-w3bDPRVRgXHsY&callback=onGoogleMapsLoaded&libraries=maps,marker,places&v=beta">
 </script>
 
 <script type="application/ld+json">
@@ -188,3 +188,47 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD65DM7F"
                   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+
+<script type="application/javascript">
+    // Remplace par le place_id de ton restaurant
+    const placeId = "ChIJYcAlx0g9jEcR_bGDPHkj64A";
+
+    // Fonction encapsulée qui s'exécutera une fois la page chargée
+    function chargerHoraires() {
+        // S'assurer que l'élément existe
+        const container = document.getElementById("horaires-container");
+        if (!container) return;
+
+        // Initialise le service Places
+        const service = new google.maps.places.PlacesService(document.createElement('div'));
+
+        // Récupère les détails du lieu
+        service.getDetails({ placeId: placeId }, (place, status) => {
+            if (status === google.maps.places.PlacesServiceStatus.OK) {
+                const horaires = place.opening_hours?.weekday_text || ["Horaires non disponibles"];
+                container.innerHTML = horaires.map(h => `<p>${h}</p>`).join('');
+
+                const containerNow = document.getElementById("horaires-now");
+                if(containerNow) {
+                    if(place.opening_hours.open_now) {
+                        containerNow.innerHTML = "<p>Nous sommes actuellement ouverts !</p>";
+                    } else {
+                        containerNow.innerHTML = "<p>Nous sommes actuellement fermés.</p>";
+                    }
+                }
+            } else {
+                container.innerHTML = "<p>Impossible de charger les horaires.</p>";
+            }
+        });
+    }
+
+    // Callback appelé automatiquement quand Google Maps est chargé
+    function onGoogleMapsLoaded() {
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', chargerHoraires);
+        } else {
+            chargerHoraires();
+        }
+    }
+
+</script>
